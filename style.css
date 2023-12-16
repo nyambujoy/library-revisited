@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    margin: 20px;
+    font-size: 2rem;
+    color: rgb(46, 46, 192)
+}
+
+.formContainer {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+
+}
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 700px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#Author {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 700px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#status {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 700px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin-left: 270px;
+    text-align: center;
+    background-color: #8A8AFF;
+    border: none;
+    color: white;
+    /* margin-bottom: 300px; */
+    border-radius: 10px;
+}
+
+.book {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background-color: white;
+}
+
+.book h2 {
+    font-style: italic;
+}
+
+
+footer {
+    position: absolute;
+    top: 800px;
+    opacity: 0.9;
+
+}
+
+svg {
+    padding: 10px;
+    background-color: #8A8AFF;
+    opacity: 0.3;
+    border-radius: 50%;
+}
